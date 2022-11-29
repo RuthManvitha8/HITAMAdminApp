@@ -18,7 +18,7 @@
 
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/addNotice"
+            android:id="@+id/addAssignments"
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
@@ -36,7 +36,7 @@
                     android:layout_height="64dp"
                     android:background="@drawable/circle_green"
                     android:padding="15dp"
-                    android:src="@drawable/ic_notice" />
+                    android:src="@drawable/ic_assignment" />
 
                 <View
                     android:layout_width="match_parent"
@@ -49,7 +49,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:padding="5dp"
-                    android:text="Upload Notice"
+                    android:text="Assignments"
                     android:textColor="@color/textColor"
                     android:textStyle="bold" />
 
@@ -57,6 +57,48 @@
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/addAttendance"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circle_purple"
+                    android:padding="15dp"
+                    android:src="@drawable/ic_attendance" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/lightGray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:text="Attendance"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
 
     </LinearLayout>
 
@@ -70,7 +112,7 @@
 
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/addEbook"
+            android:id="@+id/addSyllabus"
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
@@ -88,7 +130,7 @@
                     android:layout_height="64dp"
                     android:background="@drawable/circle_pink"
                     android:padding="15dp"
-                    android:src="@drawable/ic_upload" />
+                    android:src="@drawable/ic_syllabus" />
 
                 <View
                     android:layout_width="match_parent"
@@ -101,7 +143,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:padding="5dp"
-                    android:text="Upload Ebook"
+                    android:text="Syllabus"
                     android:textColor="@color/textColor"
                     android:textStyle="bold" />
 
@@ -109,7 +151,7 @@
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/faculty"
+            android:id="@+id/AcademicCalender"
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
@@ -127,7 +169,7 @@
                     android:layout_height="64dp"
                     android:background="@drawable/circle_yellow"
                     android:padding="15dp"
-                    android:src="@drawable/ic_group" />
+                    android:src="@drawable/ic_calendar" />
 
                 <View
                     android:layout_width="match_parent"
@@ -140,7 +182,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:padding="5dp"
-                    android:text="Update Faculty"
+                    android:text="Academic Calender"
                     android:textColor="@color/textColor"
                     android:textStyle="bold" />
 
@@ -158,7 +200,7 @@
         android:orientation="horizontal">
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/addDelete"
+            android:id="@+id/addEbook"
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
@@ -177,7 +219,7 @@
                 android:layout_height="64dp"
                 android:background="@drawable/circle_red"
                 android:padding="15dp"
-                android:src="@drawable/ic_delete" />
+                android:src="@drawable/ic_upload" />
 
             <View
 
@@ -191,7 +233,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:padding="5dp"
-                android:text="Delete Notice"
+                android:text="E-Book"
                 android:textColor="@color/textColor"
                 android:textStyle="bold" />
 
