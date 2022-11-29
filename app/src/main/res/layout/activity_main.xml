@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:paddingTop="24dp"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -53,9 +55,11 @@
 
 
             </LinearLayout>
+
         </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -100,7 +104,6 @@
                     android:text="Upload Ebook"
                     android:textColor="@color/textColor"
                     android:textStyle="bold" />
-
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -154,6 +157,12 @@
         android:gravity="center"
         android:orientation="horizontal">
 
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/addDelete"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -162,14 +171,16 @@
             android:orientation="vertical">
 
 
+
             <ImageView
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:background="@drawable/circle_red"
                 android:padding="15dp"
-                android:src="@drawable/ic_delete"/>
+                android:src="@drawable/ic_delete" />
 
             <View
+
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginTop="10dp"
@@ -184,9 +195,8 @@
                 android:textColor="@color/textColor"
                 android:textStyle="bold" />
 
-
         </LinearLayout>
-
+        </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
 
 </LinearLayout>
