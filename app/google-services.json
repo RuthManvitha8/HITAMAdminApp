@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "128703761785",
+    "project_id": "hitam-app-de418",
+    "storage_bucket": "hitam-app-de418.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128703761785:android:a7fcf7af736274d9a533a8",
+        "android_client_info": {
+          "package_name": "com.example.hitamadminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128703761785-4tdtq8kg9bsdl0ml40l0lb18ifs48icp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9M1Ajsy-LByFaE4MFsgTJUgDGPiocE9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128703761785-4tdtq8kg9bsdl0ml40l0lb18ifs48icp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
